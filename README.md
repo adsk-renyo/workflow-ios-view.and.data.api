@@ -15,7 +15,7 @@ It has four buttons:
 
 ##Dependencies
 
-This sample uses the RestSharp library. You can add it to your project using NuGet in Visual Studio.
+None
 
 ##Setup/Usage Instructions
 
