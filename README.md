@@ -23,7 +23,7 @@ None
 * You also need to create a new DropBox app as outlined in the below links and then set the 
 "Project TARGETS >> Info >> URL Types >> URL Schemes" based on the app's key  
 
-In order to get a file that can be uploaded it uses the DropBox API to get access to the user's DropBox files. To understand how you can enable an application to use the DropBox API, have a look at these articles:
+In order to get a file that can be uploaded it uses the DropBox API to get access to the user's DropBox files. To understand how you can enable an application to use the DropBox API, have a look at:
  * https://www.dropbox.com/developers/dropins/chooser/ios
 
 ## License
