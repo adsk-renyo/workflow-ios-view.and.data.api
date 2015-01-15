@@ -10,6 +10,7 @@
 #define iOSTranslation__UserSettings_h
 
 const NSString * kConsumerKey = @"your-consumer-key";
-const NSString * kSecretKey = @"your-secret-key";
+const NSString * kSecretKey = @"your-consumer-secret";
+const NSString * bucketName = @"your-bucket-name";
 
 #endif

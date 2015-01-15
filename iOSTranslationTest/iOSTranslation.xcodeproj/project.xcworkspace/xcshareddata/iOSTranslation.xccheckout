@@ -10,31 +10,31 @@
 	<string>iOSTranslation</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C25123B9-C6F5-4E49-9303-F7C98EDCD416</key>
-		<string>https://github.com/Developer-Autodesk/workflow-view.and.data.api-iOS.git</string>
+		<key>42987E135DF60DE09D37E3FAF29BF58C04338124</key>
+		<string>https://github.com/Developer-Autodesk/workflow-ios-view.and.data.api</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOSTranslationTest/iOSTranslation.xcodeproj/project.xcworkspace</string>
+	<string>iOSTranslationTest/iOSTranslation.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C25123B9-C6F5-4E49-9303-F7C98EDCD416</key>
+		<key>42987E135DF60DE09D37E3FAF29BF58C04338124</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Developer-Autodesk/workflow-view.and.data.api-iOS.git</string>
+	<string>https://github.com/Developer-Autodesk/workflow-ios-view.and.data.api</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C25123B9-C6F5-4E49-9303-F7C98EDCD416</string>
+	<string>42987E135DF60DE09D37E3FAF29BF58C04338124</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C25123B9-C6F5-4E49-9303-F7C98EDCD416</string>
+			<string>42987E135DF60DE09D37E3FAF29BF58C04338124</string>
 			<key>IDESourceControlWCCName</key>
-			<string>workflow-view.and.data.api-iOS</string>
+			<string>workflow-ios-view.and.data</string>
 		</dict>
 	</array>
 </dict>

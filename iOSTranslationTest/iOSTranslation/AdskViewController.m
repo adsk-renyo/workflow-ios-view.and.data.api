@@ -159,8 +159,8 @@
   // Now we can try to create a bucket
   NSString * body =
   [NSString stringWithFormat:
-   @"{ \"bucketKey\":\"mytestbucket\",\"policy\":\"transient\","
-   "\"servicesAllowed\":{}}"];
+   @"{ \"bucketKey\":\"%@\",\"policy\":\"transient\","
+   "\"servicesAllowed\":{}}", bucketName];
   
   NSDictionary * json =
   [self
@@ -172,9 +172,9 @@
   
   // Now we try to upload the file
   NSString * url =
-  [NSString stringWithFormat:@"%@/%@",
+  [NSString stringWithFormat:@"%@%@%@%@",
    kApiUrl
-   "/oss/v1/buckets/mytestbucket/objects",
+   "/oss/v1/buckets/", bucketName, @"/objects/",
    [self.fileName.text
     stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
   

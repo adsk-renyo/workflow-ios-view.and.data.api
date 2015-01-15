@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7F7B721A686A490064853D /* DBChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7F7B711A686A490064853D /* DBChooser.m */; };
 		F785FB44192F57E50002531A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F785FB43192F57E50002531A /* Foundation.framework */; };
 		F785FB46192F57E50002531A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F785FB45192F57E50002531A /* CoreGraphics.framework */; };
 		F785FB48192F57E50002531A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F785FB47192F57E50002531A /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE7F7B711A686A490064853D /* DBChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBChooser.m; path = DBChooser.framework/DBChooser.m; sourceTree = "<group>"; };
 		F785FB40192F57E50002531A /* iOSTranslation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTranslation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F785FB43192F57E50002531A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F785FB45192F57E50002531A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 		F785FB37192F57E50002531A = {
 			isa = PBXGroup;
 			children = (
+				DE7F7B711A686A490064853D /* DBChooser.m */,
 				F785FB7F192FE11F0002531A /* _UserSettings.h */,
 				F785FB7B192FCD920002531A /* DBChooser.bundle */,
 				F785FB7C192FCD920002531A /* DBChooser.framework */,
@@ -212,6 +215,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Adam Nagy";
 				TargetAttributes = {
+					F785FB3F192F57E50002531A = {
+						DevelopmentTeam = PG7C3W5EXR;
+					};
 					F785FB63192F57E50002531A = {
 						TestTargetID = F785FB3F192F57E50002531A;
 					};
@@ -267,6 +273,7 @@
 				F785FB50192F57E50002531A /* main.m in Sources */,
 				F785FB54192F57E50002531A /* AdskAppDelegate.m in Sources */,
 				F785FB5D192F57E50002531A /* AdskViewController.m in Sources */,
+				DE7F7B721A686A490064853D /* DBChooser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSTranslation/iOSTranslation-Prefix.pch";
 				INFOPLIST_FILE = "iOSTranslation/iOSTranslation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSTranslation/iOSTranslation-Prefix.pch";
 				INFOPLIST_FILE = "iOSTranslation/iOSTranslation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
