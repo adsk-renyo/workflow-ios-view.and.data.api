@@ -19,12 +19,13 @@ None
 ##Setup/Usage Instructions
 
 * Get your consumer key and secret key from http://developer.autodesk.com
-* You need to set the API keys in the _UserSettings.h file!
-* You also need to create a new DropBox app as outlined in the below links and then set the 
-"Project TARGETS >> Info >> URL Types >> URL Schemes" based on the app's key  
+* You need to set the API keys and unique bucket name in the _UserSettings.h file!
+* You also need to create a new DropBox app at https://www.dropbox.com/developers and set the URL with instructions below:
 
 In order to get a file that can be uploaded it uses the DropBox API to get access to the user's DropBox files. To understand how you can enable an application to use the DropBox API, have a look at:
- * https://www.dropbox.com/developers/dropins/chooser/ios
+* https://www.dropbox.com/developers/dropins/chooser/ios
+* Click on your project in the Project Navigator, select the Target option on the left, choose the Info tab, expand the URL Types section at the bottom.
+* In the URL Schemes enter db-APP_KEY (replacing APP_KEY with the key generated when you created your app).
 
 ## License
 
@@ -33,9 +34,3 @@ This sample is licensed under the terms of the [MIT License](http://opensource.o
 ##Written by 
 
 Adam Nagy
-
-
-
-
-
-    
