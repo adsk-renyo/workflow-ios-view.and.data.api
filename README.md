@@ -2,8 +2,6 @@
 
 ##Description
 
-*This sample is part of the [Developer-Autodesk/Autodesk-View-and-Data-API-Samples](https://github.com/Developer-Autodesk/autodesk-view-and-data-api-samples) repository.*
-
 This sample shows how to use the API to authenticate, upload a file, and start and monitor the translation process which creates a viewable file and its thumbnail.
 
 It has four buttons:
