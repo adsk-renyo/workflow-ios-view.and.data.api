@@ -24,7 +24,7 @@ In order to get a file that can be uploaded it uses the DropBox API to get acces
 * https://www.dropbox.com/developers/dropins/chooser/ios
 * Click on your project in the Project Navigator, select the Target option on the left, choose the Info tab, expand the URL Types section at the bottom.
 * In the URL Schemes enter db-APP_KEY (replacing APP_KEY with the key generated when you created your app).
-* ![Here's a screenshot](https://github.com/Developer-Autodesk/workflow-ios-view.and.data.api/blob/master/Screen%20Shot%202015-01-15%20at%201.53.00%20PM.png)
+![Here's a screenshot](Screen%20Shot%202015-01-15%20at%201.53.00%20PM.png)
 
 ## License
 
